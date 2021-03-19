@@ -91,7 +91,7 @@ module.exports.showBookings = async (req, res) => {
         }
 
 
-        res.status(200).json(user.bookings)
+        res.status(200).json(response)
     } catch (e) {
         console.log(e)
         res.sendStatus(400)
